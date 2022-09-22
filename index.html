@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="index.js"></script>
+    <label for="domTextElement"
+      >Hola! queremos darte la bienvenida a esta nueva aventura. Por favor,
+      escribe tu nombre.
+    </label>
+    <input type="text" id="domTextElement" />
+
+    <button type="button" onclick="getValueInput()">Enviar</button>
+
+    <p id="valueInput"></p>
+
+    <div id="primerAcertijo"></div>
+
+    <div id="botones" style="display: none">
+      <input type="text" class="tresPalabras" />
+      <input type="text" class="tresPalabras" />
+      <input type="text" class="tresPalabras" />
+      <button type="button" onclick="valueTresPalabras()">Enviar</button>
+      <p id="validacionTresPalabras"></p>
+    </div>
+
+    <div id="segundoAcertijo" style="display: none">
+      <p id="textoAcertijoDos"></p>
+      <input type="text" id="luz" />
+      <button type="button" onclick="validacionDos()">Enviar</button>
+      <p id="textoDos"></p>
+    </div>
+  </body>
+</html>
